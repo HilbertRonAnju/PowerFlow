@@ -1,47 +1,43 @@
-# Å£¶Ù-À­·òÑ··¨³±Á÷¼ÆËã³ÌÐòÉè¼Æ
+# ç‰›é¡¿-æ‹‰å¤«é€Šæ³•æ½®æµè®¡ç®—ç¨‹åºè®¾è®¡
 
-### ×÷Õß£ºÄôÓÀÐÀ
-### °à¼¶£ºS2064
-### Ñ§ºÅ£º3122104125
+## ç¨‹åºè®¾è®¡è¦æ±‚
 
-## ³ÌÐòÉè¼ÆÒªÇó
+1. ç¼–ç¨‹è¯­è¨€c++ï¼›
+2. ä½¿ç”¨ç¨€ç–çŸ©é˜µæŠ€æœ¯å’ŒèŠ‚ç‚¹ä¼˜åŒ–ç¼–å·ï¼ˆT2æ–¹æ¡ˆï¼‰ï¼›
+3. IEEE 5ã€14ã€30ã€57ã€118å’Œ300èŠ‚ç‚¹ç³»ç»Ÿçš„è®¡ç®—åŠç»“æžœï¼›
+4. æäº¤ç¨‹åºæºä»£ç åŠç¼–å†™è¯´æ˜Žï¼Œæäº¤6ä¸ªç³»ç»Ÿçš„è®¡ç®—ç»“æžœ
 
-1. ±à³ÌÓïÑÔc++£»
-2. Ê¹ÓÃÏ¡Êè¾ØÕó¼¼ÊõºÍ½ÚµãÓÅ»¯±àºÅ£¨T2·½°¸£©£»
-3. IEEE 5¡¢14¡¢30¡¢57¡¢118ºÍ300½ÚµãÏµÍ³µÄ¼ÆËã¼°½á¹û£»
-4. Ìá½»³ÌÐòÔ´´úÂë¼°±àÐ´ËµÃ÷£¬Ìá½»6¸öÏµÍ³µÄ¼ÆËã½á¹û
-
-## ÎÄ¼þ½á¹¹
-ÏîÄ¿ÎÄ¼þ½á¹¹ÈçÏÂ£º
+## æ–‡ä»¶ç»“æž„
+é¡¹ç›®æ–‡ä»¶ç»“æž„å¦‚ä¸‹ï¼š
 
 ```
 C:\USERS\96547\DESKTOP\POWERFLOW
-©¦  PowerFlow.exe
-©¦  PowerFlow.sln
-©¦  README.md
-©¦  
-©À©¤Data
-©¦      IEEE118.txt
-©¦      IEEE14.txt
-©¦      IEEE30.txt
-©¦      IEEE300.txt
-©¦      IEEE5.txt
-©¦      IEEE57.txt
-©¦      
-©À©¤Debug
-©¦      PowerFlow.exe
-©¦      PowerFlow.pdb
-©¦      
-©À©¤Intermediates
-©¦          
-©À©¤Result
-©¦      IEEE118_Result.txt
-©¦      IEEE14_Result.txt
-©¦      IEEE300_Result.txt
-©¦      IEEE30_Result.txt
-©¦      IEEE57_Result.txt
-©¦      
-©¸©¤Source
+â”‚  PowerFlow.exe
+â”‚  PowerFlow.sln
+â”‚  README.md
+â”‚  
+â”œâ”€Data
+â”‚      IEEE118.txt
+â”‚      IEEE14.txt
+â”‚      IEEE30.txt
+â”‚      IEEE300.txt
+â”‚      IEEE5.txt
+â”‚      IEEE57.txt
+â”‚      
+â”œâ”€Debug
+â”‚      PowerFlow.exe
+â”‚      PowerFlow.pdb
+â”‚      
+â”œâ”€Intermediates
+â”‚          
+â”œâ”€Result
+â”‚      IEEE118_Result.txt
+â”‚      IEEE14_Result.txt
+â”‚      IEEE300_Result.txt
+â”‚      IEEE30_Result.txt
+â”‚      IEEE57_Result.txt
+â”‚      
+â””â”€Source
         ConductanceMatrixGenerater.cpp
         DataLoader.cpp
         DataStruct.h
@@ -52,16 +48,16 @@ C:\USERS\96547\DESKTOP\POWERFLOW
         ResultOutput.cpp
         Variables.h
 ```
-```\\Data```ÎÄ¼þ¼Ð´æ´¢ËãÀýÊý¾Ý
+```\\Data```æ–‡ä»¶å¤¹å­˜å‚¨ç®—ä¾‹æ•°æ®
 
-```\\Result ```ÎÄ¼þ¼Ð´æ´¢½á¹ûÊý¾Ý
+```\\Result ```æ–‡ä»¶å¤¹å­˜å‚¨ç»“æžœæ•°æ®
 
-```\\Source ```ÎÄ¼þ¼Ð´æ´¢Ô´´úÂë
+```\\Source ```æ–‡ä»¶å¤¹å­˜å‚¨æºä»£ç 
 
-```\\Intermediates ```ÎÄ¼þ¼Ð´æ´¢±àÒë²úÉúµÄÖÐ¼äÎÄ¼þ
+```\\Intermediates ```æ–‡ä»¶å¤¹å­˜å‚¨ç¼–è¯‘äº§ç”Ÿçš„ä¸­é—´æ–‡ä»¶
 
-```\\Debug ```ÎÄ¼þ¼Ð´æ´¢Êä³öµÄexeÎÄ¼þ
+```\\Debug ```æ–‡ä»¶å¤¹å­˜å‚¨è¾“å‡ºçš„exeæ–‡ä»¶
 
-## ÏîÄ¿»·¾³
+## é¡¹ç›®çŽ¯å¢ƒ
 
-### ¿ª·¢¹¤¾ßÎªvisual studio 2022£¬±àÒëÆ½Ì¨ÎªX86£¬±àÒëÑ¡ÏîÎªDebug
+### å¼€å‘å·¥å…·ä¸ºvisual studio 2022ï¼Œç¼–è¯‘å¹³å°ä¸ºX86ï¼Œç¼–è¯‘é€‰é¡¹ä¸ºDebug
